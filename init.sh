@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 #############################
 #                           #
@@ -7,10 +7,12 @@
 #############################
 
 source_files=(
-    "${PWD}/.zshrc"     # 0: .zshrc
+    "${PWD}/.zshrc" 	# 0: .zshrc
+    "${PWD}/.vimrc"	# 1: .vimrc
 )
 linked_files=(
-    "${HOME}/.zshrc"    # 0: .zshrc
+    "${HOME}/.zshrc" 	# 0: .zshrc
+    "${HOME}/.vimrc"	# 1: .vimrc
 )
 
 # Check source file, linked file length
